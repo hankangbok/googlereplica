@@ -3,7 +3,7 @@ head {
 }
 
 #use this class to insert images?
-logo {
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -11,7 +11,7 @@ logo {
 }
 
 
-centered {
+.centered {
     top:50%
     margin-left:50%
     /**margin-left:auto;
@@ -20,7 +20,7 @@ centered {
     **/
 }
 
-footerbar{
+.footerbar{
     columns: #999999;
     margin:0;
     width:100%
