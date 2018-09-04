@@ -11,7 +11,8 @@ head {
 
 
 .centered {
-    top:50%;
+    /**top:50%;**/
+    margin-top:50%;
     margin-left:50%;
     /**margin-left:auto;
     margin-right:auto;
@@ -21,7 +22,7 @@ head {
 
 .footerbar{
     columns: #999999;
-    margin:0;;
+    margin:0;
     width:100%;
     background-color: #000000;
 }
