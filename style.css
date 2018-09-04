@@ -6,6 +6,10 @@ head {
 
 }
 
-basic-button {
+#use this class to insert images?
+logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
