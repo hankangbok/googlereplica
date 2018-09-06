@@ -7,14 +7,14 @@ head {
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width:40%;
+    width:10%;
 }
 
 .centerimg{
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width:200px; 
+    width:100px; 
 
 }
 
@@ -23,23 +23,35 @@ head {
     }
 #footerjustify a {
     display: inline-block;
-    background-color: #887f7f
+    }
+#footerjustify::after{
+    content: '';
+    widows: 100%;
+    display:inline-block;
 }
 
 
 .centered {
     /**top:50%;**/
     margin-left:50%;
-    margin-top:30px
+    margin-top:30px;
     /**margin-left:auto;
     margin-right:auto;
     width: 50%
     **/
 }
 
-.footerbar{
+.headerbar{
     columns: #f70303;
     margin:10px;
-    width:75%;
+    width:100%;
+    background-color:rgb(85, 78, 78);
+}
+
+
+.footerbar{
+    columns: #f70303;
+    margin-bottom:10px;
+    width:100%;
     background-color:rgb(85, 78, 78);
 }
