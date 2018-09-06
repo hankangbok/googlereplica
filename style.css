@@ -10,10 +10,16 @@ head {
     width:40%;
 }
 
+.centerimg{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
 
 .centered {
     /**top:50%;**/
-    margin-left:50%;
+    margin:50%;
     /**margin-left:auto;
     margin-right:auto;
     width: 50%
