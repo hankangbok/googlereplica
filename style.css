@@ -3,7 +3,7 @@ head {
 }
 
 .logo {
-    margin-top:30%
+    margin-top:30%;
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -14,8 +14,12 @@ head {
     display:block;
     margin-left:auto;
     margin-right:auto;
-    
+
 }
+
+#footerjustify{
+    text-align: justify;
+    }
 
 .centered {
     /**top:50%;**/
@@ -27,9 +31,9 @@ head {
 }
 
 .footerbar{
-    columns: #999999;
+    columns: #f70303;
     margin:0;
-    margin-left: 25%
+    margin-left: 25%;
     width:75%;
-    background-color:gray;
+    background-color:rgb(85, 78, 78);
 }
