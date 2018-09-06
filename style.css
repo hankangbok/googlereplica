@@ -14,16 +14,23 @@ head {
     display:block;
     margin-left:auto;
     margin-right:auto;
+    width:200px; 
 
 }
 
 #footerjustify{
     text-align: justify;
     }
+#footerjustify a {
+    display: inline-block;
+    background-color: #887f7f
+}
+
 
 .centered {
     /**top:50%;**/
-    margin:50%;
+    margin-left:50%;
+    margin-top:30px
     /**margin-left:auto;
     margin-right:auto;
     width: 50%
@@ -32,8 +39,7 @@ head {
 
 .footerbar{
     columns: #f70303;
-    margin:0;
-    margin-left: 25%;
+    margin:10px;
     width:75%;
     background-color:rgb(85, 78, 78);
 }
