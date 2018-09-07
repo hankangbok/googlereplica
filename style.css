@@ -2,6 +2,10 @@ head {
 
 }
 
+div{
+    font-family: "Arial", sans-serif;
+}
+
 .logo {
     margin-top:30%;
     display:block;
@@ -37,6 +41,7 @@ head {
 
 .centered {
     /**top:50%;**/
+    margin-top: 20px;
     text-align:center;
     /**margin-left:50%;
     margin-top:30px;**/
@@ -53,8 +58,8 @@ head {
 
 
 .footerbar{
-    columns: #f70303;
-    margin-top:300px;
+    position:fixed;
+    bottom:0px;   
     width:100%;
     background-color:#ddd6d6;
 }
